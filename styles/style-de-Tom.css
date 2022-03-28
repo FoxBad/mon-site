@@ -3,7 +3,7 @@ body, div {
 	padding: 0;
 }
 body {
-	background-color: beige;
+	background-color: lightgreen;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 }
@@ -13,34 +13,55 @@ img {
 }
 th { width: 200px;}
 ul { list-style-type: square; }
+a{
+	text-decoration: none;
+
+}
+
+
 
 #entete-de-page {
 	padding: 5px;
 	height: 100px;
-	background-color: lightgrey;
+	background-color: lightblue;
 	font-size: 32px;
 	font-weight: bold;
 	font-variant: small-caps;
 	text-align: center;
+
 }
+
+
 #bloc-menu {
 	height: 36px;
-	background-color: steelblue;
+	width: 100%;
+	background-color: lightgray;
 	float: center;
-	color: white;
+	color: black;
 }
+
+
+
+.bottom{
+	display: flex;
+	flex-direction:column ;
+	align-items: center;
+	justify-content: center;
+}
+
 #contenu {
 	padding: 10px;
-	background-color: beige;
+	background-color: lightgreen;
 }
 #infos {
-	color: darkblue;
+	color: black;
 	font-style: italic;
 }
 #pied-de-page {
 	padding: 5px;
 	background-color: lightgrey;
 	font-size: 11px;
+
 }
 
 	
